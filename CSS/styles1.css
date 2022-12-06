@@ -1,0 +1,39 @@
+h1{
+    text-align: center;
+    color: #2e052e;
+    padding: 50px 0 ;
+    font-family: 'Secular One', sans-serif;
+}
+h3{
+    text-align: left;
+    color:#2e0542;
+    padding: 0 0 0 20px;
+    font-family: 'Secular One', sans-serif;
+}
+p{
+    color:#2e0542;
+    font-size: 20px;
+}
+.grad1{
+    size: auto;
+    background-image: linear-gradient(135deg,#04e2b7,#038298);
+}
+.container-fluid{
+    background-image: linear-gradient(135deg,#04e2b7,#038298);
+}
+.pic{
+    width: 80%;
+    height: 60%;
+    position: relative;
+    margin: 100px auto;
+    left: 130px;
+}
+@media(max-width:800px) {
+    .pic{
+        width: 70%;
+        height: 60%;
+        position: relative;
+        margin: 100px auto;
+        left: 70px;
+    }   
+}
